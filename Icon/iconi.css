@@ -1,0 +1,25 @@
+.middle{
+ position: absolute;
+ background-image: url(12.jpg);
+ top: 60%;
+ width: 100%;
+ text-align: center;
+}
+.bth{
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  display: inline-block;
+  border-radius: 30%;
+  box-shadow: 10px 10px 10px tomato;
+}
+.bth i{
+  position: relative;
+  top: 20%;
+  font-size: 50px;
+  color: lime;
+  transition: 0.3s linear;
+}
+.bth i:hover{
+  transform: scale(2) rotate(360000000000000deg);
+}
