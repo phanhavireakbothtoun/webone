@@ -40,3 +40,27 @@ main > p{
   margin-top: 14%;
 
 }
+.middle{
+ position: absolute;
+ top: 100%;
+ width: 100%;
+ text-align: center;
+}
+.bth{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(141,252,197);
+  display: inline-block;
+  border-radius: 30%;
+  box-shadow: 5px 5px 10px rgb(41,255,255);
+}
+.bth i{
+  position: relative;
+  top: 20%;
+  font-size: 20px;
+  color: rgb(255,190,41);
+  transition: 0.3s linear;
+}
+.bth i:hover{
+  transform: scale(2) rotate(360000000000000deg);
+}
